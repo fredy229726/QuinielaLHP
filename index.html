@@ -96,7 +96,6 @@
             width: 100%;
         }
         
-       
         .contact-info i {
             margin-right: 10px;
         }
@@ -104,6 +103,22 @@
         #logo {
             height: 120px;
         }
+
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Colapsar los bordes de las celdas */
+        }
+
+        th, td {
+            border: 1px solid black; /* Borde de 1px sólido negro */
+            padding: 8px; /* Espaciado interno de las celdas */
+            text-align: center; /* Alineación centrada del texto */
+        }
+
+        th {
+            background-color: #f2f2f2; /* Fondo gris claro para los encabezados */
+        }
+        
     </style>
 </head>
 <body>
@@ -168,6 +183,45 @@
         
                 <input type="submit" id="button" value="Send Email" >
             </form>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2" style="background-color: green;">Tabla de apuestas</th>
+                    </tr>
+                    <tr>
+                        <th style="background-color: darkgrey;">Participante</th>
+                        <th style="background-color: darkgray;">Puntos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Christian Aguayo</th>
+                        <th>5</th>
+                    </tr>
+                    <tr>
+                        <th>Alfredo Preza</th>
+                        <th>5</th>
+                    </tr>
+                    <tr>
+                        <th>Adgio Guzman</th>
+                        <th>4</th>
+                    </tr>
+                    <tr>
+                        <th>Iker Alejandro AlRen</th>
+                        <th>3</th>
+                    </tr>
+                    <tr>
+                        <th>Carlos "Maynez" Diaz</th>
+                        <th>2</th>
+                    </tr>
+                    <tr>
+                        <th>Angel Carpio</th>
+                        <th>1</th>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
     
